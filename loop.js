@@ -41,8 +41,33 @@
 
 // ৩৩ তুমি এতদিন যা যা জিনিস শিখছো সেগুলার নাম দিয়ে একটা array বানাও। তারপর একটা for লুপ দিয়ে সেই array এর সব উপাদান কে আউটপুট হিসেবে দেখাও। 
 
-let learnItem = ['HTML', 'HTML5', 'CSS', 'CSS3', 'BOOTSTRAP', 'TAILWIND', 'JAVASCRIPT']
+// let learnItem = ['HTML', 'HTML5', 'CSS', 'CSS3', 'BOOTSTRAP', 'TAILWIND', 'JAVASCRIPT']
 
-for (i = 0; i < learnItem.length; i++) {
-    console.log(learnItem[i]);
+// for (i = 0; i < learnItem.length; i++) {
+//     console.log(learnItem[i]);
+// }
+
+
+
+// ৩৪. তুমি এতদিন পর্যন্ত যে যে মডেলের মোবাইল ফোন ইউজ করেছো সেগুলার নাম দিয়ে একটা array বানাও। তারপর একটা while লুপ দিয়ে সেই array এর উপাদান গুলা একটা একটা করে আউটপুট হিসেবে দেখাও 
+
+let useMobilePhone = ['Nokia', 'Symponi', 'MicroMax', 'Vivo', 'Mi'];
+
+let i = 0;
+let text = '';
+
+while (useMobilePhone[i]) {
+    text += useMobilePhone[i];
+    console.log(useMobilePhone[i]);
+    i++;
 }
+
+// const cars = ["BMW", "Volvo", "Saab", "Ford"];
+
+// let i = 0;
+// let text = "";
+// while (cars[i]) {
+//     text += cars[i] + "<br>";
+//     console.log(cars[i]);
+//     i++;
+// }
