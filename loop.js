@@ -16,6 +16,16 @@
 // }
 
 
-for (let i = 58; i <= 98; i++) {
-    console.log(i);
+// 58 theke 98 number dekhao 
+
+// for (let i = 58; i <= 98; i++) {
+//     console.log(i);
+// }
+
+// ৩০.একটা কোড লিখে ৪১২ থেকে ৪৫৬ পর্যন্ত যত জোর সংখ্যা আছে সেগুলাকে দেখাও  
+
+for (i = 412; i <= 456; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
 }
